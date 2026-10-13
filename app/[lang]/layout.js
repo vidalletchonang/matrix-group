@@ -7,6 +7,7 @@ import '@fontsource-variable/fraunces/wght.css'
 import '@fontsource-variable/fraunces/wght-italic.css'
 import '@fontsource/dm-sans/400.css'
 import '@fontsource/dm-sans/500.css'
+import '@fontsource/dm-sans/600.css'
 import '../globals.css'
 
 export function generateStaticParams(){return LANGS.map(lang=>({lang}))}
@@ -17,7 +18,7 @@ export const viewport={width:'device-width',initialScale:1,viewportFit:'cover',t
 export default async function Root({children,params}){const {lang}=await params;if(!LANGS.includes(lang))notFound();const t=dict(lang);const f=t.footer;const tel=SITE.tel.replace(/ /g,'')
   return(<html lang={lang}><body>
 <a className="skip" href="#main">{t.nav.skip}</a>
-<div className="top"><div className="w"><span>{t.top}</span><span><a href={`tel:${tel}`}>{SITE.tel}</a> · <a href={`mailto:${SITE.mail}`}>{SITE.mail}</a></span></div></div>
+<div className="topbar"><div className="w"><span>{t.top}</span><span><a href={`tel:${tel}`}>{SITE.tel}</a> · <a href={`mailto:${SITE.mail}`}>{SITE.mail}</a></span></div></div>
 <header><div className="w"><Link className="logo" href={href(lang,'/')} aria-label="Matrix Group, home"><picture><source srcSet="/logo-dark.svg" media="(prefers-color-scheme: dark)"/><img src="/logo.svg" alt="Matrix Group" width="1885" height="640"/></picture></Link><Nav t={t.nav} lang={lang}/></div></header>
 <main id="main">{children}</main>
 <footer><div className="w"><div className="cols">
