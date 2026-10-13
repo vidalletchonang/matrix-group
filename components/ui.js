@@ -1,5 +1,5 @@
 import Link from 'next/link'
-export const SITE={addr:'Via Esempio 1, 00000 Città',tel:'+39 000 0000000',mail:'info@example.it'}
+export const SITE={name:'MATRIX GROUP S.R.L.S.',piva:'04279440368',addr:'Via Tommaso Frignani 103-105-107, 41125 Modena (MO)',tel:'+39 000 0000000',mail:'info@example.it'}
 export function Scene({n,crane}){
   let r=n*9301+49297,x=-10;const R=()=>{r=(r*9301+49297)%233280;return r/233280};const b=[]
   for(let i=0;i<10;i++){const w=44+R()*44,t=70+R()*150,wn=[]
