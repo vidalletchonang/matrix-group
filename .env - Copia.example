@@ -1,4 +1,0 @@
-# Invio email del modulo contatti (https://resend.com)
-RESEND_API_KEY=
-MAIL_FROM=Matrix Group <noreply@tuodominio.it>
-MAIL_TO=info@tuodominio.it
