@@ -1,23 +1,22 @@
-# Matrix Group – sito Next.js
+# Matrix Group – sito Next.js (IT · EN · FR · DE · ES)
 
 ## Provare in locale
     npm install
     npm run dev      # http://localhost:3000
 
 ## Dove modificare
-- Contatti (indirizzo, telefono, email): `components/ui.js` (oggetto SITE)
-- Testi: `app/page.js`, `app/chi-siamo/page.js`, `app/servizi/page.js`
+- Dati aziendali, contatti, foto e video: `lib/site.js`
+- Testi in ogni lingua: `content/it.js`, `content/en.js`, `content/fr.js`, `content/de.js`, `content/es.js`
+  (stessa struttura in tutti i file: se aggiungi un testo in italiano, aggiungilo anche nelle altre lingue)
+- Pagine: cartella `app/[lang]/`
 - Colori e grafica: `app/globals.css` (variabili in cima, accento #008080)
 
-## Pubblicare su Vercel (gratis)
-1. Carica questa cartella su un repository GitHub.
-2. Su vercel.com: Add New > Project > importa il repository > Deploy.
-3. Settings > Domains: aggiungi il tuo dominio. Vercel mostra i record DNS da inserire.
+## Lingue
+L'italiano è servito senza prefisso (`/servizi`), le altre lingue con prefisso (`/en/servizi`, `/fr/servizi`…).
+Lo gestisce `middleware.js`.
 
-## Collegare il dominio Aruba
-Nel pannello Aruba, Gestione DNS del dominio, inserisci ESATTAMENTE i valori mostrati da Vercel
-(di solito: record A per il dominio principale e CNAME per "www").
-Non toccare i record MX se usi la posta Aruba.
+## Pubblicare su Vercel
+Ogni modifica su GitHub (ramo main) viene pubblicata automaticamente da Vercel.
 
 ## Modulo contatti (invio email)
 1. Crea un account su resend.com e verifica il dominio.

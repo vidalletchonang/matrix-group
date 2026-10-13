@@ -1,7 +1,7 @@
 'use client'
 import {useEffect,useRef,useState} from 'react'
-import {VIDEO} from './ui'
-export default function HeroVideo(){
+import {VIDEO} from '../lib/site'
+export default function HeroVideo({t}){
   const v=useRef(null)
   const user=useRef(false)
   const [on,setOn]=useState(false)
@@ -17,5 +17,5 @@ export default function HeroVideo(){
   function toggle(){const el=v.current;if(!el)return;if(el.paused){user.current=false;el.play().catch(()=>{})}else{user.current=true;el.pause()}}
   return(<>
     <video ref={v} className="bg" src={VIDEO.src} poster={VIDEO.poster} muted loop playsInline preload="auto" aria-hidden="true"/>
-    <button className="play" onClick={toggle} aria-label={on?'Metti in pausa il video':'Riproduci il video'}><b>{on?'❚❚':'▶'}</b>{on?'Pausa':'Video'}</button>
+    <button className="play" onClick={toggle} aria-label={on?t.pauseL:t.playL}><b>{on?'❚❚':'▶'}</b>{on?t.pause:t.play}</button>
   </>)}

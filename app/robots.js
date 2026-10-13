@@ -1,1 +1,2 @@
-export default function robots(){return{rules:{userAgent:'*',allow:'/'},sitemap:'https://matrix-group-4sfs.vercel.app/sitemap.xml'}}
+// TEMP: build volontairement cassé pendant la migration
+export default function robots(){ BREAK
