@@ -29,8 +29,9 @@ export const Cta=({t,lang,c})=><section className="cta"><div className="w"><span
 export function Concept({labels,aria}){
   return(<svg className="dg" viewBox="0 0 400 300" role="img" aria-label={aria}>{labels.map((tx,i)=>{const a=i*Math.PI/3-Math.PI/2,x=+(200+Math.cos(a)*115).toFixed(1),y=+(150+Math.sin(a)*105).toFixed(1);return <g key={tx}><line x1="200" y1="150" x2={x} y2={y} stroke="var(--acc)" strokeWidth="1.5" opacity=".6"/><circle cx={x} cy={y} r="7" fill="var(--bg)" stroke="var(--acc)" strokeWidth="2"/><text x={x} y={y+(y<150?-16:24)} textAnchor="middle">{tx}</text></g>})}<circle cx="200" cy="150" r="30" fill="var(--acc)"/><text x="200" y="157" textAnchor="middle" style={{fill:'var(--accink)',font:'700 22px var(--hf)'}}>M</text></svg>)}
 
-const SV=[{path:'/servizi/consulenza-cantiere',img:'copertura'},{path:'/servizi/sicurezza-rspp',img:'piattaforma'}]
-export function ServiceCards({t,lang}){return(<div className="svcs">{t.svc.map((s,i)=><Link className="svc" href={href(lang,SV[i].path)} key={s.t}><Photo id={SV[i].img} alt={s.alt}/><span className="num">0{i+1}</span><h3>{s.t}</h3><p>{s.p}</p><div className="chips">{s.c.map(x=><i key={x}>{x}</i>)}</div><span className="more">{t.more}</span></Link>)}</div>)}
+const SV=['/servizi/consulenza-cantiere','/servizi/sicurezza-rspp']
+// imgs: una foto diversa per ogni pagina (nessuna immagine ripetuta nel sito); foto decorative, il testo della card basta
+export function ServiceCards({t,lang,imgs}){return(<div className="svcs">{t.svc.map((s,i)=><Link className="svc" href={href(lang,SV[i])} key={s.t}><Photo id={imgs[i]} alt=""/><span className="num">0{i+1}</span><h3>{s.t}</h3><p>{s.p}</p><div className="chips">{s.c.map(x=><i key={x}>{x}</i>)}</div><span className="more">{t.more}</span></Link>)}</div>)}
 
 export function Certs({c,compact}){
   return(<div className={`certs${compact?' compact':''}`}>
