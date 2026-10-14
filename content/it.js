@@ -89,7 +89,7 @@ const it={
   contatti:{
     meta:{title:'Contatti',desc:'Contatta Matrix Group per consulenza di cantiere, sicurezza sul lavoro e servizio RSPP. Sede legale a Modena.'},
     hero:{eyebrow:'Contatti',title:['Parliamo del ','tuo progetto'],text:"Raccontaci il cantiere o l'esigenza di sicurezza della tua impresa: ti ricontattiamo al più presto.",alt:"Cantiere con gru all'alba"},
-    h:'Parliamone.',write:'Scrivici',note:'Telefono ed email sono segnaposto: modificali in lib/site.js.',
+    h:'Parliamone.',write:'Scrivici',note:'Il numero di telefono è un segnaposto: modificalo in lib/site.js.',
   },
   form:{name:'Nome e cognome',email:'Email',phone:'Telefono',service:'Di cosa hai bisogno',services:['Consulenza di cantiere','Sicurezza sul lavoro / RSPP','Altro'],message:'Raccontaci brevemente la tua esigenza (facoltativo)',messageL:'Messaggio',privacy:["Dichiaro di aver letto l'",'informativa privacy','.'],send:'Invia richiesta',sending:'Invio…',ok:'Grazie, abbiamo ricevuto la tua richiesta. Ti risponderemo al più presto.',err:'Invio non riuscito. Riprova più tardi o scrivici via email.'},
   privacy:{

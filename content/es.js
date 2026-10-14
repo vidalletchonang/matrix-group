@@ -90,7 +90,7 @@ const es={
   contatti:{
     meta:{title:'Contacto',desc:'Contacta con Matrix Group para consultoría de obra, seguridad laboral y servicio de RSPP. Domicilio social en Módena (Italia).'},
     hero:{eyebrow:'Contacto',title:['Hablemos de ','tu proyecto'],text:'Cuéntanos sobre tu obra o las necesidades de seguridad de tu empresa: te contactaremos lo antes posible.',alt:'Obra con grúa al amanecer'},
-    h:'Hablemos.',write:'Escríbenos',note:'El teléfono y el correo son provisionales: modifícalos en lib/site.js.',
+    h:'Hablemos.',write:'Escríbenos',note:'El número de teléfono es provisional: modifícalo en lib/site.js.',
   },
   form:{name:'Nombre y apellidos',email:'Correo electrónico',phone:'Teléfono',service:'¿Qué necesitas?',services:['Consultoría de obra','Seguridad laboral / RSPP','Otro'],message:'Describe brevemente tu necesidad (opcional)',messageL:'Mensaje',privacy:['He leído la ','política de privacidad','.'],send:'Enviar solicitud',sending:'Enviando…',ok:'Gracias, hemos recibido tu solicitud. Te responderemos lo antes posible.',err:'No se ha podido enviar. Inténtalo más tarde o escríbenos por correo.'},
   privacy:{

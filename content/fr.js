@@ -90,7 +90,7 @@ const fr={
   contatti:{
     meta:{title:'Contact',desc:'Contactez Matrix Group pour le conseil de chantier, la sécurité au travail et le service RSPP. Siège social à Modène (Italie).'},
     hero:{eyebrow:'Contact',title:['Parlons de ','votre projet'],text:'Parlez-nous de votre chantier ou des besoins de votre entreprise en matière de sécurité : nous vous recontactons au plus vite.',alt:'Chantier avec grue à l’aube'},
-    h:'Parlons-en.',write:'Écrivez-nous',note:'Le téléphone et l’e-mail sont provisoires : modifiez-les dans lib/site.js.',
+    h:'Parlons-en.',write:'Écrivez-nous',note:'Le numéro de téléphone est provisoire : modifiez-le dans lib/site.js.',
   },
   form:{name:'Nom et prénom',email:'E-mail',phone:'Téléphone',service:'De quoi avez-vous besoin ?',services:['Conseil de chantier','Sécurité au travail / RSPP','Autre'],message:'Décrivez brièvement votre besoin (facultatif)',messageL:'Message',privacy:['J’ai lu la ','politique de confidentialité','.'],send:'Envoyer la demande',sending:'Envoi…',ok:'Merci, nous avons bien reçu votre demande. Nous vous répondrons au plus vite.',err:'L’envoi a échoué. Réessayez plus tard ou écrivez-nous par e-mail.'},
   privacy:{

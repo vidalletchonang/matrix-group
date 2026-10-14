@@ -90,7 +90,7 @@ const en={
   contatti:{
     meta:{title:'Contact',desc:'Contact Matrix Group for construction site consulting, health and safety at work and RSPP service. Registered office in Modena, Italy.'},
     hero:{eyebrow:'Contact',title:["Let's talk about ",'your project'],text:'Tell us about your site or your company’s safety needs: we will get back to you as soon as possible.',alt:'Construction site with a crane at dawn'},
-    h:"Let's talk.",write:'Write to us',note:'Phone and email are placeholders: edit them in lib/site.js.',
+    h:"Let's talk.",write:'Write to us',note:'The phone number is a placeholder: edit it in lib/site.js.',
   },
   form:{name:'First and last name',email:'Email',phone:'Phone',service:'What do you need?',services:['Construction site consulting','Health and safety / RSPP','Other'],message:'Briefly describe what you need (optional)',messageL:'Message',privacy:['I have read the ','privacy notice','.'],send:'Send request',sending:'Sending…',ok:'Thank you, we have received your request. We will get back to you as soon as possible.',err:'Sending failed. Please try again later or email us.'},
   privacy:{
