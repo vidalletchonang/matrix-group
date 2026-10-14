@@ -36,7 +36,7 @@ nav .links a.on::after{content:"";position:absolute;left:13px;right:13px;bottom:
 
 /* hero con foto o video */
 .hero{position:relative;min-height:86vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--deep);color:#fff}
-.hero.sm{min-height:52vh}
+.hero.sm{min-height:52vh}.hero video.bg{animation:none}
 .hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:pan 30s ease-in-out infinite alternate;transform-origin:center}
 @keyframes pan{to{transform:scale(1.06)}}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,26,21,.5) 0%,rgba(8,26,21,.45) 35%,var(--ov) 100%)}
