@@ -76,7 +76,7 @@ const fr={
   },
   faq:{
     meta:{title:'Questions fréquentes',desc:'Réponses aux questions les plus fréquentes sur le conseil de chantier, la sécurité au travail et le service de RSPP externe.'},
-    hero:{eyebrow:'FAQ',title:['Questions ','fréquentes'],text:'Les réponses aux questions qu’on nous pose le plus souvent.',alt:'Personnes examinant des plans de projet sur un bureau'},
+    hero:{eyebrow:'FAQ',title:['Questions ','fréquentes'],text:'Les réponses aux questions qu’on nous pose le plus souvent.',alt:'Deux ouvriers casqués avec harnais antichute travaillant sur un échafaudage'},
     items:[
       ['Qu’entend-on par conseil de chantier ?','Il s’agit d’un accompagnement technique et organisationnel, indépendant de la réalisation des travaux : nous aidons à planifier les phases, organiser les travaux, coordonner les intervenants et résoudre les points critiques techniques ou organisationnels.'],
       ['Remplacez-vous le maître d’œuvre ou le coordonnateur sécurité ?','Non. Nos activités respectent les rôles, les responsabilités et les missions professionnelles prévus par la réglementation, sans se substituer aux intervenants techniques officiellement désignés. Nous travaillons à leurs côtés.'],

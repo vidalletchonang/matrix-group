@@ -75,7 +75,7 @@ const it={
   },
   faq:{
     meta:{title:'Domande frequenti',desc:'Risposte alle domande più comuni sulla consulenza di cantiere, sulla sicurezza sul lavoro e sul servizio di RSPP esterno.'},
-    hero:{eyebrow:'FAQ',title:['Domande ','frequenti'],text:'Le risposte alle domande che ci vengono rivolte più spesso.',alt:'Persone che esaminano disegni di progetto su una scrivania'},
+    hero:{eyebrow:'FAQ',title:['Domande ','frequenti'],text:'Le risposte alle domande che ci vengono rivolte più spesso.',alt:'Due operai con casco e imbracatura anticaduta al lavoro su un ponteggio'},
     items:[
       ['Che cosa si intende per consulenza di cantiere?','È un supporto tecnico e organizzativo, indipendente dalla realizzazione diretta delle opere: aiutiamo a pianificare le fasi, organizzare le lavorazioni, coordinare le figure coinvolte e risolvere criticità tecniche o organizzative.'],
       ['Sostituite il direttore dei lavori o il coordinatore per la sicurezza?','No. Le nostre attività si svolgono nel rispetto dei ruoli, delle responsabilità e degli incarichi professionali previsti dalla normativa, senza sovrapporci alle figure tecniche formalmente incaricate. Lavoriamo al loro fianco.'],

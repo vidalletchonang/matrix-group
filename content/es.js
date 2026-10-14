@@ -76,7 +76,7 @@ const es={
   },
   faq:{
     meta:{title:'Preguntas frecuentes',desc:'Respuestas a las preguntas más habituales sobre la consultoría de obra, la seguridad laboral y el servicio de RSPP externo.'},
-    hero:{eyebrow:'FAQ',title:['Preguntas ','frecuentes'],text:'Las respuestas a las preguntas que nos hacen con más frecuencia.',alt:'Personas revisando planos de proyecto sobre un escritorio'},
+    hero:{eyebrow:'FAQ',title:['Preguntas ','frecuentes'],text:'Las respuestas a las preguntas que nos hacen con más frecuencia.',alt:'Dos trabajadores con casco y arnés anticaídas trabajando en un andamio'},
     items:[
       ['¿Qué se entiende por consultoría de obra?','Es un apoyo técnico y organizativo, independiente de la ejecución de las obras: ayudamos a planificar las fases, organizar los trabajos, coordinar a las personas implicadas y resolver problemas técnicos u organizativos.'],
       ['¿Sustituís a la dirección de obra o al coordinador de seguridad?','No. Nuestras actividades respetan los roles, las responsabilidades y los encargos profesionales previstos por la normativa, sin solaparnos con las figuras técnicas formalmente designadas. Trabajamos a su lado.'],

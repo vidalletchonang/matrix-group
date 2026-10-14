@@ -76,7 +76,7 @@ const en={
   },
   faq:{
     meta:{title:'Frequently asked questions',desc:'Answers to the most common questions about construction site consulting, health and safety at work and the external RSPP service.'},
-    hero:{eyebrow:'FAQ',title:['Frequently asked ','questions'],text:'Answers to the questions we are asked most often.',alt:'People reviewing project drawings on a desk'},
+    hero:{eyebrow:'FAQ',title:['Frequently asked ','questions'],text:'Answers to the questions we are asked most often.',alt:'Two workers in hard hats and fall-arrest harnesses working on scaffolding'},
     items:[
       ['What is construction site consulting?','It is technical and organisational support, independent of the actual execution of the works: we help plan phases, organise works, coordinate the people involved and solve technical or organisational issues.'],
       ['Do you replace the works supervisor or the safety coordinator?','No. Our activities respect the roles, responsibilities and professional appointments required by law, without overlapping with the formally appointed technical figures. We work alongside them.'],

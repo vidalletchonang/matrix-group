@@ -76,7 +76,7 @@ const de={
   },
   faq:{
     meta:{title:'Häufige Fragen',desc:'Antworten auf die häufigsten Fragen zu Baustellenberatung, Arbeitssicherheit und dem externen RSPP-Dienst.'},
-    hero:{eyebrow:'FAQ',title:['Häufige ','Fragen'],text:'Antworten auf die Fragen, die uns am häufigsten gestellt werden.',alt:'Personen prüfen Projektpläne auf einem Schreibtisch'},
+    hero:{eyebrow:'FAQ',title:['Häufige ','Fragen'],text:'Antworten auf die Fragen, die uns am häufigsten gestellt werden.',alt:'Zwei Arbeiter mit Helm und Auffanggurt bei der Arbeit auf einem Gerüst'},
     items:[
       ['Was versteht man unter Baustellenberatung?','Eine technische und organisatorische Unterstützung, unabhängig von der eigentlichen Ausführung der Arbeiten: Wir helfen, Phasen zu planen, Arbeiten zu organisieren, die Beteiligten zu koordinieren und technische oder organisatorische Probleme zu lösen.'],
       ['Ersetzen Sie die Bauleitung oder den Sicherheitskoordinator?','Nein. Unsere Tätigkeiten erfolgen unter Wahrung der gesetzlich vorgesehenen Rollen, Verantwortlichkeiten und Aufträge, ohne uns mit den förmlich beauftragten technischen Funktionen zu überschneiden. Wir arbeiten an ihrer Seite.'],

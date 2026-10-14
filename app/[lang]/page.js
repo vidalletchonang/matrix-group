@@ -7,7 +7,7 @@ export async function generateMetadata({params}){const {lang}=await params;const
 export default async function Home({params}){const {lang}=await params;const t=dict(lang);const h=t.home
   return(<>
 <Hero big h={{title:h.title,text:h.text}} t={t} lang={lang}><HeroVideo {...HERO.home} t={t.video}/></Hero>
-<section><div className="w"><span className="eyebrow">{h.s1.eyebrow}</span><h2>{h.s1.h}</h2><p className="lead">{h.s1.lead}</p><ServiceCards t={t} lang={lang} imgs={[PH.disegno,PH.dpi]}/></div></section>
+<section><div className="w"><span className="eyebrow">{h.s1.eyebrow}</span><h2>{h.s1.h}</h2><p className="lead">{h.s1.lead}</p><ServiceCards t={t} lang={lang} imgs={['consulenza-team','cantiere-team']}/></div></section>
 <div className="mq" aria-hidden="true"><span>{h.mq.repeat(4)}</span><span>{h.mq.repeat(4)}</span></div>
 <section><div className="w grid2"><div><span className="eyebrow">{h.name.eyebrow}</span><h2>{h.name.h}</h2><p className="lead">{h.name.lead}</p><Link className="more" href={href(lang,'/chi-siamo')}>{h.name.link}</Link></div><Concept labels={h.concept} aria={h.conceptAria}/></div></section>
 <section><div className="w"><span className="eyebrow">{h.steps.eyebrow}</span><h2>{h.steps.h}</h2><div className="steps">{h.steps.items.map(([a,b])=><div key={a}><h3>{a}</h3><p>{b}</p></div>)}</div></div></section>
