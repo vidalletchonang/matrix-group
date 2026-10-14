@@ -2,7 +2,7 @@ import {Hero,Photo,Cta,Certs} from '../../../components/ui'
 import LazyVideo from '../../../components/LazyVideo'
 import {PH} from '../../../lib/site'
 import {dict,meta} from '../../../lib/i18n'
-const REALG=[['piattaforma',1],['copertura'],['ponteggio'],['accumulo'],['fv-impianto'],['video',1],['fv-tetto']]
+const REALG=[['piattaforma',1],['copertura'],['ponteggio'],['accumulo'],['fv-impianto'],['video'],['fv-tetto',1]]
 const IMG=[[PH.struttura,1],[PH.ferri],[PH.citta],[PH.ponteggi],[PH.industria],[PH.alba,1]]
 export async function generateMetadata({params}){const {lang}=await params;const t=dict(lang).prog;return meta(lang,'/progetti',t.meta.title,t.meta.desc)}
 export default async function Page({params}){const {lang}=await params;const t=dict(lang);const p=t.prog
