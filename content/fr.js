@@ -6,6 +6,7 @@ const fr={
   nav:{home:'Accueil',chi:'Qui sommes-nous',servizi:'Services',progetti:'Projets',faq:'FAQ',contatti:'Contact',cta:'Nous contacter',open:'Ouvrir le menu',close:'Fermer le menu',skip:'Aller au contenu',lang:'Langue'},
   hero:{cta1:'Demander un contact',cta2:'Nos services'},
   video:{play:'Vidéo',pause:'Pause',playL:'Lire la vidéo',pauseL:'Mettre la vidéo en pause'},
+  ct:{"call": "Appeler", "sms": "SMS", "wa": "WhatsApp", "waL": "Écrivez-nous sur WhatsApp", "msg": "Bonjour, je souhaiterais avoir des informations sur vos services."},
   certs:{"eyebrow": "Certifications", "h": "Des compétences certifiées.", "p": "Des habilitations spécifiques pour les installations de climatisation et les systèmes de stockage photovoltaïque.", "items": [{"t": "Certification F-GAS", "alt": "Logo de la certification F-GAS"}, {"t": "Tesla Powerwall Certified Installer", "alt": "Logo Tesla Powerwall Certified Installer"}]},
   cta:{eyebrow:'Parlons-en',title:['Mettons de ','l’ordre',' dans votre projet.'],text:'Parlez-nous de votre chantier ou des besoins de votre entreprise en matière de sécurité.',btn:'Demander un contact'},
   more:'En savoir plus →',
@@ -93,7 +94,7 @@ const fr={
   contatti:{
     meta:{title:'Contact',desc:'Contactez Matrix Group pour le conseil de chantier, la sécurité au travail et le service RSPP. Siège social à Modène (Italie).'},
     hero:{eyebrow:'Contact',title:['Parlons de ','votre projet'],text:'Parlez-nous de votre chantier ou des besoins de votre entreprise en matière de sécurité : nous vous recontactons au plus vite.',alt:'Chantier avec grue à l’aube'},
-    h:'Parlons-en.',write:'Écrivez-nous',note:'Le numéro de téléphone est provisoire : modifiez-le dans lib/site.js.',
+    h:'Parlons-en.',write:'Écrivez-nous',
   },
   form:{name:'Nom et prénom',email:'E-mail',phone:'Téléphone',service:'De quoi avez-vous besoin ?',services:['Conseil de chantier','Sécurité au travail / RSPP','Autre'],message:'Décrivez brièvement votre besoin (facultatif)',messageL:'Message',privacy:['J’ai lu la ','politique de confidentialité','.'],send:'Envoyer la demande',sending:'Envoi…',ok:'Merci, nous avons bien reçu votre demande. Nous vous répondrons au plus vite.',err:'L’envoi a échoué. Réessayez plus tard ou écrivez-nous par e-mail.'},
   privacy:{

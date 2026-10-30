@@ -1,4 +1,4 @@
-import {Hero} from '../../../components/ui'
+import {Hero,ContactButtons} from '../../../components/ui'
 import ContactForm from '../../../components/ContactForm'
 import {SITE,PH} from '../../../lib/site'
 import {dict,meta,href} from '../../../lib/i18n'
@@ -10,6 +10,6 @@ export default async function Page({params}){const {lang}=await params;const t=d
 <p><strong>{SITE.name}</strong></p>
 <p>{t.footer.sede}: {SITE.addr}</p>
 <p>{t.footer.piva} {SITE.piva}</p>
-<p><a href={`mailto:${SITE.mail}`}>{SITE.mail}</a> · <a href={`tel:${SITE.tel.replace(/ /g,'')}`}>{SITE.tel}</a></p>
-<p className="note">{c.note}</p></div>
+<p><a href={`mailto:${SITE.mail}`}>{SITE.mail}</a></p>
+<ContactButtons c={t.ct}/></div>
 <div><span className="eyebrow">{c.write}</span><ContactForm t={t.form} privacyHref={href(lang,'/privacy')}/></div></div></section></>)}

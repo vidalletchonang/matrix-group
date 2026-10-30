@@ -6,6 +6,7 @@ const es={
   nav:{home:'Inicio',chi:'Quiénes somos',servizi:'Servicios',progetti:'Proyectos',faq:'FAQ',contatti:'Contacto',cta:'Contáctanos',open:'Abrir el menú',close:'Cerrar el menú',skip:'Ir al contenido',lang:'Idioma'},
   hero:{cta1:'Solicitar contacto',cta2:'Nuestros servicios'},
   video:{play:'Vídeo',pause:'Pausa',playL:'Reproducir el vídeo',pauseL:'Pausar el vídeo'},
+  ct:{"call": "Llamar", "sms": "SMS", "wa": "WhatsApp", "waL": "Escríbenos por WhatsApp", "msg": "Buenos días, me gustaría recibir información sobre sus servicios."},
   certs:{"eyebrow": "Certificaciones", "h": "Competencias certificadas.", "p": "Habilitaciones específicas para instalaciones de climatización y sistemas de almacenamiento fotovoltaico.", "items": [{"t": "Certificación F-GAS", "alt": "Logotipo de la certificación F-GAS"}, {"t": "Tesla Powerwall Certified Installer", "alt": "Logotipo Tesla Powerwall Certified Installer"}]},
   cta:{eyebrow:'Hablemos',title:['Pongamos ','orden',' en tu proyecto.'],text:'Cuéntanos sobre tu obra o las necesidades de seguridad de tu empresa.',btn:'Solicitar contacto'},
   more:'Más información →',
@@ -93,7 +94,7 @@ const es={
   contatti:{
     meta:{title:'Contacto',desc:'Contacta con Matrix Group para consultoría de obra, seguridad laboral y servicio de RSPP. Domicilio social en Módena (Italia).'},
     hero:{eyebrow:'Contacto',title:['Hablemos de ','tu proyecto'],text:'Cuéntanos sobre tu obra o las necesidades de seguridad de tu empresa: te contactaremos lo antes posible.',alt:'Obra con grúa al amanecer'},
-    h:'Hablemos.',write:'Escríbenos',note:'El número de teléfono es provisional: modifícalo en lib/site.js.',
+    h:'Hablemos.',write:'Escríbenos',
   },
   form:{name:'Nombre y apellidos',email:'Correo electrónico',phone:'Teléfono',service:'¿Qué necesitas?',services:['Consultoría de obra','Seguridad laboral / RSPP','Otro'],message:'Describe brevemente tu necesidad (opcional)',messageL:'Mensaje',privacy:['He leído la ','política de privacidad','.'],send:'Enviar solicitud',sending:'Enviando…',ok:'Gracias, hemos recibido tu solicitud. Te responderemos lo antes posible.',err:'No se ha podido enviar. Inténtalo más tarde o escríbenos por correo.'},
   privacy:{

@@ -6,6 +6,7 @@ const de={
   nav:{home:'Startseite',chi:'Über uns',servizi:'Leistungen',progetti:'Projekte',faq:'FAQ',contatti:'Kontakt',cta:'Kontakt aufnehmen',open:'Menü öffnen',close:'Menü schließen',skip:'Zum Inhalt springen',lang:'Sprache'},
   hero:{cta1:'Rückruf anfordern',cta2:'Unsere Leistungen'},
   video:{play:'Video',pause:'Pause',playL:'Video abspielen',pauseL:'Video anhalten'},
+  ct:{"call": "Anrufen", "sms": "SMS", "wa": "WhatsApp", "waL": "Schreiben Sie uns auf WhatsApp", "msg": "Guten Tag, ich hätte gerne Informationen zu Ihren Leistungen."},
   certs:{"eyebrow": "Zertifizierungen", "h": "Zertifizierte Kompetenz.", "p": "Spezifische Qualifikationen für Klimaanlagen und Photovoltaik-Speichersysteme.", "items": [{"t": "F-GAS-Zertifizierung", "alt": "Logo der F-GAS-Zertifizierung"}, {"t": "Tesla Powerwall Certified Installer", "alt": "Logo Tesla Powerwall Certified Installer"}]},
   cta:{eyebrow:'Sprechen wir darüber',title:['Wir bringen ','Ordnung',' in Ihr Projekt.'],text:'Erzählen Sie uns von Ihrer Baustelle oder vom Sicherheitsbedarf Ihres Unternehmens.',btn:'Rückruf anfordern'},
   more:'Mehr erfahren →',
@@ -93,7 +94,7 @@ const de={
   contatti:{
     meta:{title:'Kontakt',desc:'Kontaktieren Sie Matrix Group für Baustellenberatung, Arbeitssicherheit und RSPP-Dienst. Firmensitz in Modena (Italien).'},
     hero:{eyebrow:'Kontakt',title:['Sprechen wir über ','Ihr Projekt'],text:'Erzählen Sie uns von Ihrer Baustelle oder vom Sicherheitsbedarf Ihres Unternehmens: Wir melden uns so schnell wie möglich.',alt:'Baustelle mit Kran im Morgengrauen'},
-    h:'Sprechen wir darüber.',write:'Schreiben Sie uns',note:'Die Telefonnummer ist ein Platzhalter: Ändern Sie sie in lib/site.js.',
+    h:'Sprechen wir darüber.',write:'Schreiben Sie uns',
   },
   form:{name:'Vor- und Nachname',email:'E-Mail',phone:'Telefon',service:'Was benötigen Sie?',services:['Baustellenberatung','Arbeitssicherheit / RSPP','Sonstiges'],message:'Beschreiben Sie kurz Ihr Anliegen (optional)',messageL:'Nachricht',privacy:['Ich habe die ','Datenschutzerklärung',' gelesen.'],send:'Anfrage senden',sending:'Wird gesendet…',ok:'Vielen Dank, wir haben Ihre Anfrage erhalten. Wir melden uns so schnell wie möglich.',err:'Das Senden ist fehlgeschlagen. Bitte versuchen Sie es später erneut oder schreiben Sie uns eine E-Mail.'},
   privacy:{
