@@ -4,11 +4,7 @@ import Nav from '../../components/Nav'
 import {SITE} from '../../lib/site'
 import {LANGS,dict,href,BASE} from '../../lib/i18n'
 import {WaFloat} from '../../components/ui'
-import '@fontsource-variable/fraunces/wght.css'
-import '@fontsource-variable/fraunces/wght-italic.css'
-import '@fontsource/dm-sans/400.css'
-import '@fontsource/dm-sans/500.css'
-import '@fontsource/dm-sans/600.css'
+import '@fontsource-variable/archivo/wdth.css'
 import '../globals.css'
 
 export function generateStaticParams(){return LANGS.map(lang=>({lang}))}
@@ -20,7 +16,7 @@ export default async function Root({children,params}){const {lang}=await params;
   return(<html lang={lang}><body>
 <a className="skip" href="#main">{t.nav.skip}</a>
 <div className="topbar"><div className="w"><span>{t.top}</span><span><a href={`tel:${tel}`}>{SITE.tel}</a> · <a href={`https://wa.me/${tel.replace('+','')}`} target="_blank" rel="noopener">WhatsApp</a> · <a href={`mailto:${SITE.mail}`}>{SITE.mail}</a></span></div></div>
-<header><div className="w"><Link className="logo" href={href(lang,'/')} aria-label="Matrix Group, home"><picture><source srcSet="/logo-dark.svg" media="(prefers-color-scheme: dark)"/><img src="/logo.svg" alt="Matrix Group" width="1885" height="640"/></picture></Link><Nav t={t.nav} lang={lang}/></div></header>
+<header><div className="w"><Link className="logo" href={href(lang,'/')} aria-label="Matrix Group, home"><img src="/logo.svg" alt="Matrix Group" width="1885" height="640"/></Link><Nav t={t.nav} lang={lang}/></div></header>
 <main id="main">{children}</main>
 <footer><div className="w"><div className="cols">
 <div><img className="flogo" src="/logo-dark.svg" alt="Matrix Group" width="1885" height="640"/><p>{f.tag}<br/>{SITE.addr}</p></div>
