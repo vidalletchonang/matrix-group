@@ -1,1 +1,1 @@
-export default function robots(){return{rules:{userAgent:'*',allow:'/'},sitemap:'https://matrix-group-4sfs.vercel.app/sitemap.xml'}}
+export default function robots(){return{rules:{userAgent:'*',allow:'/'},sitemap:'https://www.matrix-group.it/sitemap.xml'}}
