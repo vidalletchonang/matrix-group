@@ -143,6 +143,7 @@ section.soft{background:var(--panel)}
 @media(max-width:820px){.feat{grid-template-columns:1fr}.certs{grid-template-columns:1fr}}
 @media(max-width:520px){.certs ul{grid-template-columns:1fr}}
 
+.hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 /* contatti: chiamata, SMS, WhatsApp */
 .ctbtns{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0 6px}
 .ctb{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:var(--rad);text-decoration:none;font:500 15.5px var(--bf);border:1.5px solid var(--line);color:var(--ink);background:var(--panel);transition:transform .15s,border-color .15s}

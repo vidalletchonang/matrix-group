@@ -7,6 +7,7 @@ export default function ContactForm({t,privacyHref}){
     try{const r=await fetch('/api/contact',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(e.target)))});setS(r.ok?'ok':'err')}catch{setS('err')}}
   if(s==='ok')return <p className="note">{t.ok}</p>
   return(<form onSubmit={send}>
+    <input name="website" tabIndex="-1" autoComplete="off" aria-hidden="true" className="hp"/>
     <input name="name" required placeholder={t.name} aria-label={t.name} autoComplete="name"/>
     <input name="email" type="email" required placeholder={t.email} aria-label={t.email} autoComplete="email"/>
     <input name="phone" type="tel" placeholder={t.phone} aria-label={t.phone} autoComplete="tel"/>
