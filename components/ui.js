@@ -24,7 +24,8 @@ export function Hero({h,img:id,pos,big,t,lang,children}){
 
 export const List=({items})=><ul className="lst">{items.map(x=><li key={x}>{x}</li>)}</ul>
 
-export const Cta=({t,lang,c})=><section className="cta"><div className="w"><span className="eyebrow">{t.cta.eyebrow}</span><h2>{E((c||t.cta).title)}</h2><p>{(c||t.cta).text}</p><Link className="btn" href={href(lang,'/contatti')}>{t.cta.btn}</Link></div></section>
+// Invito finale: modulo, chiamata diretta o WhatsApp
+export const Cta=({t,lang,c})=><section className="cta"><div className="w"><span className="eyebrow">{t.cta.eyebrow}</span><h2>{E((c||t.cta).title)}</h2><p>{(c||t.cta).text}</p><div className="ctas"><Link className="btn" href={href(lang,'/contatti')}>{t.cta.btn}</Link><a className="btn o" href={PHONE.tel}><Icon n="tel"/>{t.ct.call} {SITE.tel}</a><a className="btn o" href={waUrl(t.ct.msg)} target="_blank" rel="noopener"><Icon n="wa"/>WhatsApp</a></div></div></section>
 
 export function Concept({labels,aria}){
   return(<svg className="dg" viewBox="0 0 400 300" role="img" aria-label={aria}>{labels.map((tx,i)=>{const a=i*Math.PI/3-Math.PI/2,x=+(200+Math.cos(a)*115).toFixed(1),y=+(150+Math.sin(a)*105).toFixed(1);return <g key={tx}><line x1="200" y1="150" x2={x} y2={y} stroke="var(--acc)" strokeWidth="1.5" opacity=".6"/><circle cx={x} cy={y} r="7" fill="var(--bg)" stroke="var(--acc)" strokeWidth="2"/><text x={x} y={y+(y<150?-16:24)} textAnchor="middle">{tx}</text></g>})}<circle cx="200" cy="150" r="30" fill="var(--acc)"/><text x="200" y="157" textAnchor="middle" style={{fill:'var(--accink)',font:'700 22px var(--hf)'}}>M</text></svg>)}

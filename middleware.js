@@ -8,4 +8,4 @@ export function middleware(req){
   if(OTHER.includes(first))return NextResponse.next()
   const url=req.nextUrl.clone();url.pathname='/it'+(pathname==='/'?'':pathname);return NextResponse.rewrite(url)
 }
-export const config={matcher:['/((?!api|_next|.*\\..*).*)']}
+export const config={matcher:['/((?!api|_next|.*opengraph-image|.*\\..*).*)']}

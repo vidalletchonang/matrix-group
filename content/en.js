@@ -18,7 +18,7 @@ const en={
   home:{
     heroAlt:"Residential building under renovation, wrapped in scaffolding and safety netting, under a sunset sky",real:{"eyebrow": "From our sites", "h": "Real work, in the field.", "lead": "Roofs, photovoltaic systems, storage systems, work at height: a few images from the projects we work on.", "link": "See all projects"},
     title:['More expertise, ','one vision.'],
-    text:'Matrix Group brings together different skills and professionals to provide consulting, organisation and support with a complete view of the project.',
+    text:'Construction site consulting and workplace safety, based in Modena. We organise the work, prevent risks and support companies, professionals and clients at every stage of the project.',
     s1:{eyebrow:'What we do',h:'Two areas, a single point of reference.',lead:'Construction site consulting and occupational health and safety, with method, responsibility and continuity.'},
     mq:'Prevent · Organise · Protect · ',
     name:{eyebrow:'The name',h:'Matrix: where expertise and projects take shape.',lead:'From the Latin matrix, related to mater: womb, origin, generative principle. For us it is the place where different skills and solutions find connection and a common direction. Not a sum of activities, but a structure that brings them together and helps them grow into a shared vision.',link:'About us →'},

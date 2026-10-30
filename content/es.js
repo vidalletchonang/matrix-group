@@ -18,7 +18,7 @@ const es={
   home:{
     heroAlt:"Edificio residencial en rehabilitación, cubierto por andamios y malla de protección, bajo un cielo al atardecer",real:{"eyebrow": "Desde nuestras obras", "h": "Trabajo real, sobre el terreno.", "lead": "Cubiertas, instalaciones fotovoltaicas, sistemas de almacenamiento, trabajos en altura: algunas imágenes de las intervenciones en las que trabajamos.", "link": "Ver todos los proyectos"},
     title:['Más competencias, ','una sola visión.'],
-    text:'Matrix Group pone en relación competencias y profesionales diferentes para ofrecer consultoría, organización y apoyo con una visión completa del proyecto.',
+    text:'Consultoría de obra y seguridad laboral, con sede en Módena. Organizamos los trabajos, prevenimos los riesgos y acompañamos a empresas, profesionales y promotores en cada fase del proyecto.',
     s1:{eyebrow:'Qué hacemos',h:'Dos áreas, un único referente.',lead:'Consultoría de obra y seguridad laboral, con método, responsabilidad y continuidad.'},
     mq:'Prevenir · Organizar · Proteger · ',
     name:{eyebrow:'El nombre',h:'Matrix: el punto donde las competencias y los proyectos toman forma.',lead:'Del latín matrix, relacionado con mater: matriz, origen, principio generador. Para nosotros es el lugar donde competencias y soluciones diferentes se conectan y encuentran una dirección común. No una suma de actividades, sino una estructura que las acoge y las hace evolucionar hacia una visión compartida.',link:'Quiénes somos →'},

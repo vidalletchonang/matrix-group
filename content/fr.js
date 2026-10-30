@@ -18,7 +18,7 @@ const fr={
   home:{
     heroAlt:"Immeuble résidentiel en rénovation, entouré d’échafaudages et de filets de protection, sous un ciel de coucher de soleil",real:{"eyebrow": "Sur nos chantiers", "h": "Du travail réel, sur le terrain.", "lead": "Toitures, installations photovoltaïques, systèmes de stockage, travaux en hauteur : quelques images des interventions sur lesquelles nous travaillons.", "link": "Voir tous les projets"},
     title:['Plus de compétences, ','une seule vision.'],
-    text:'Matrix Group réunit des compétences et des professionnels différents pour offrir conseil, organisation et accompagnement avec une vision complète du projet.',
+    text:'Conseil de chantier et sécurité au travail, depuis Modène. Nous organisons les travaux, prévenons les risques et accompagnons entreprises, professionnels et maîtres d’ouvrage à chaque étape du projet.',
     s1:{eyebrow:'Ce que nous faisons',h:'Deux domaines, un seul interlocuteur.',lead:'Conseil de chantier et sécurité au travail, avec méthode, responsabilité et continuité.'},
     mq:'Prévenir · Organiser · Protéger · ',
     name:{eyebrow:'Le nom',h:'Matrix : là où compétences et projets prennent forme.',lead:'Du latin matrix, lié à mater : matrice, origine, principe générateur. Pour nous, c’est le lieu où des compétences et des solutions différentes se relient et trouvent une direction commune. Non pas une somme d’activités, mais une structure qui les accueille et les fait évoluer vers une vision partagée.',link:'Qui sommes-nous →'},

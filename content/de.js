@@ -18,7 +18,7 @@ const de={
   home:{
     heroAlt:"Wohngebäude in Sanierung, eingerüstet und mit Schutznetz verhüllt, unter einem Abendhimmel",real:{"eyebrow": "Von unseren Baustellen", "h": "Echte Arbeit, vor Ort.", "lead": "Dächer, Photovoltaikanlagen, Speichersysteme, Arbeiten in der Höhe: einige Bilder von den Projekten, an denen wir arbeiten.", "link": "Alle Projekte ansehen"},
     title:['Mehr Kompetenzen, ','eine Vision.'],
-    text:'Matrix Group verbindet unterschiedliche Kompetenzen und Fachleute, um Beratung, Organisation und Unterstützung mit einem ganzheitlichen Blick auf das Projekt zu bieten.',
+    text:'Baustellenberatung und Arbeitssicherheit mit Sitz in Modena. Wir organisieren die Arbeiten, beugen Risiken vor und begleiten Unternehmen, Fachleute und Bauherren in jeder Projektphase.',
     s1:{eyebrow:'Was wir tun',h:'Zwei Bereiche, ein Ansprechpartner.',lead:'Baustellenberatung und Arbeitssicherheit – mit Methode, Verantwortung und Kontinuität.'},
     mq:'Vorbeugen · Organisieren · Schützen · ',
     name:{eyebrow:'Der Name',h:'Matrix: wo Kompetenzen und Projekte Gestalt annehmen.',lead:'Vom lateinischen matrix, verwandt mit mater: Ursprung, Quelle, erzeugendes Prinzip. Für uns ist es der Ort, an dem unterschiedliche Kompetenzen und Lösungen zusammenfinden und eine gemeinsame Richtung erhalten. Keine Summe von Tätigkeiten, sondern eine Struktur, die sie aufnimmt und zu einer gemeinsamen Vision weiterentwickelt.',link:'Über uns →'},

@@ -17,7 +17,7 @@ const it={
   home:{
     heroAlt:"Edificio residenziale in ristrutturazione, avvolto da ponteggio e rete di protezione, sotto un cielo al tramonto",real:{"eyebrow": "Dai nostri cantieri", "h": "Lavoro reale, sul campo.", "lead": "Coperture, impianti fotovoltaici, sistemi di accumulo, lavori in quota: alcune immagini dagli interventi a cui lavoriamo.", "link": "Guarda tutti i progetti"},
     title:['Più competenze, ','una sola visione.'],
-    text:'Matrix Group mette in relazione competenze e professionalità diverse per offrire consulenza, organizzazione e supporto con una visione completa del progetto.',
+    text:'Consulenza di cantiere e sicurezza sul lavoro, con sede a Modena. Organizziamo le lavorazioni, preveniamo i rischi e affianchiamo imprese, professionisti e committenti in ogni fase del progetto.',
     s1:{eyebrow:'Cosa facciamo',h:'Due aree, un unico riferimento.',lead:'Consulenza di cantiere e sicurezza sul lavoro, con metodo, responsabilità e continuità.'},
     mq:'Prevenire · Organizzare · Proteggere · ',
     name:{eyebrow:'Il nome',h:'Matrix: il punto da cui competenze e progetti prendono forma.',lead:'Dal latino matrix, legato a mater: grembo, origine, principio generativo. Per noi è il luogo in cui competenze e soluzioni differenti trovano connessione e direzione comune. Non una somma di attività, ma una struttura che le accoglie e le fa evolvere in una visione condivisa.',link:'Chi siamo →'},
