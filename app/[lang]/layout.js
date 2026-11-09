@@ -14,13 +14,14 @@ export async function generateMetadata({params}){const {lang}=await params;const
 export const viewport={width:'device-width',initialScale:1,viewportFit:'cover',themeColor:'#06343A'}
 
 // Dati strutturati per Google (scheda aziendale): solo dati reali dell'azienda
-const ld=(lang,t)=>({'@context':'https://schema.org','@type':'ProfessionalService',name:'Matrix Group',legalName:SITE.name,url:BASE+href(lang,'/'),logo:BASE+'/logo.svg',image:BASE+'/hero-home.webp',description:t.meta.desc,telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,vatID:'IT'+SITE.piva,
+const ld=(lang,t)=>({'@context':'https://schema.org','@type':'ProfessionalService','@id':BASE+'/#org',name:'Matrix Group',legalName:SITE.name,url:BASE+href(lang,'/'),logo:BASE+'/logo-512.png',image:BASE+'/hero-home.webp',description:t.meta.desc,telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,vatID:'IT'+SITE.piva,
   address:{'@type':'PostalAddress',streetAddress:'Via Tommaso Frignani 103-105-107',postalCode:'41125',addressLocality:'Modena',addressRegion:'MO',addressCountry:'IT'},
   contactPoint:{'@type':'ContactPoint',telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,contactType:'customer service',availableLanguage:['it','en','fr','de','es']}})
 export default async function Root({children,params}){const {lang}=await params;if(!LANGS.includes(lang))notFound();const t=dict(lang);const f=t.footer;const tel=SITE.tel.replace(/ /g,'')
-  return(<html lang={lang}><body>
+  return(<html lang={lang}><head><link rel="icon" href="/favicon.ico" sizes="48x48"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/></head><body>
 <a className="skip" href="#main">{t.nav.skip}</a>
 <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(ld(lang,t))}}/>
+{lang==='it'&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'WebSite',name:'Matrix Group',alternateName:['Matrix Group Modena','matrix-group.it'],url:BASE+'/',publisher:{'@id':BASE+'/#org'}})}}/>}
 <div className="topbar"><div className="w"><span>{t.top}</span><span><a href={`tel:${tel}`}>{SITE.tel}</a> · <a href={`https://wa.me/${tel.replace('+','')}`} target="_blank" rel="noopener">WhatsApp</a> · <a href={`mailto:${SITE.mail}`}>{SITE.mail}</a></span></div></div>
 <header><div className="w"><Link className="logo" href={href(lang,'/')} aria-label="Matrix Group, home"><img src="/logo.svg" alt="Matrix Group" width="1885" height="640"/></Link><Nav t={t.nav} lang={lang}/></div></header>
 <main id="main">{children}</main>
