@@ -69,7 +69,7 @@ const fr={
     items:[
       {t:'Bâtiment résidentiel',p:'Constructions neuves et interventions sur des bâtiments résidentiels : planification des phases, organisation des travaux et coordination opérationnelle.',alt:'Bâtiment résidentiel en construction'},
       {t:'Structures et béton armé',p:'Accompagnement pendant les phases de gros œuvre, où les séquences de travail et la sécurité sont les plus délicates.',alt:'Pose des armatures en acier'},
-      {t:'Chantiers urbains',p:'Chantiers dans des contextes complexes, avec peu d’espace, des interférences et de nombreux intervenants.',alt:'Grues et immeubles en construction en ville'},
+      
       {t:'Réhabilitations et rénovations',p:'Interventions sur des bâtiments existants, avec une attention particulière aux travaux en hauteur et aux interférences.',alt:'Ouvriers travaillant sur des échafaudages'},
       {t:'Entreprises et sites de production',p:'Conseil en sécurité de l’entreprise : évaluation des risques, procédures, formation et service de RSPP.',alt:'Casque de protection suspendu dans un environnement industriel'},
       {t:'Grands chantiers et infrastructures',p:'Accompagnement sur des phases précises ou des points critiques ponctuels, y compris sur les chantiers d’autres entreprises.',alt:'Grue sur un chantier aux fondations en béton à l’aube'},

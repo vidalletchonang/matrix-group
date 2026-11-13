@@ -68,7 +68,7 @@ const it={
     items:[
       {t:'Edilizia residenziale',p:'Nuove costruzioni e interventi su edifici residenziali: pianificazione delle fasi, organizzazione delle lavorazioni e coordinamento operativo.',alt:'Edificio residenziale in costruzione'},
       {t:'Strutture e opere in cemento armato',p:'Supporto nelle fasi strutturali, dove sequenze di lavoro e sicurezza sono più delicate.',alt:'Posa dei ferri di armatura'},
-      {t:'Cantieri urbani',p:'Cantieri in contesti complessi, con spazi ridotti, interferenze e molte figure coinvolte.',alt:'Gru e palazzi in costruzione in città'},
+      
       {t:'Riqualificazioni e ristrutturazioni',p:'Interventi su edifici esistenti, con attenzione alle lavorazioni in quota e alle interferenze.',alt:'Operai al lavoro su ponteggi'},
       {t:'Aziende e ambienti produttivi',p:'Consulenza sulla sicurezza aziendale: valutazione dei rischi, procedure, formazione e servizio RSPP.',alt:'Casco di protezione appeso in un ambiente industriale'},
       {t:'Grandi cantieri e infrastrutture',p:'Affiancamento su fasi specifiche o criticità puntuali, anche in cantieri di aziende esterne.',alt:"Gru su un cantiere con fondazioni in cemento all'alba"},

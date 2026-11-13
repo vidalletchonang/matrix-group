@@ -69,7 +69,7 @@ const es={
     items:[
       {t:'Edificación residencial',p:'Obra nueva e intervenciones en edificios residenciales: planificación de fases, organización de los trabajos y coordinación operativa.',alt:'Edificio residencial en construcción'},
       {t:'Estructuras y hormigón armado',p:'Apoyo en las fases estructurales, donde las secuencias de trabajo y la seguridad son más delicadas.',alt:'Colocación de armaduras de acero'},
-      {t:'Obras urbanas',p:'Obras en contextos complejos, con poco espacio, interferencias y muchas personas implicadas.',alt:'Grúas y edificios en construcción en la ciudad'},
+      
       {t:'Rehabilitaciones y reformas',p:'Intervenciones en edificios existentes, con especial atención a los trabajos en altura y a las interferencias.',alt:'Trabajadores en andamios'},
       {t:'Empresas y entornos productivos',p:'Consultoría en seguridad de la empresa: evaluación de riesgos, procedimientos, formación y servicio de RSPP.',alt:'Casco de protección colgado en un entorno industrial'},
       {t:'Grandes obras e infraestructuras',p:'Acompañamiento en fases concretas o problemas puntuales, también en obras de otras empresas.',alt:'Grúa en una obra con cimentaciones de hormigón al amanecer'},

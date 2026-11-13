@@ -69,7 +69,7 @@ const en={
     items:[
       {t:'Residential building',p:'New builds and work on residential buildings: phase planning, organisation of works and operational coordination.',alt:'Residential building under construction'},
       {t:'Structures and reinforced concrete',p:'Support during structural phases, where work sequences and safety are most sensitive.',alt:'Placing reinforcing steel'},
-      {t:'Urban sites',p:'Sites in complex settings, with limited space, interferences and many people involved.',alt:'Cranes and buildings under construction in a city'},
+      
       {t:'Renovation and refurbishment',p:'Work on existing buildings, with attention to work at height and interferences.',alt:'Workers on scaffolding'},
       {t:'Companies and production sites',p:'Company safety consulting: risk assessment, procedures, training and RSPP service.',alt:'Safety helmet hanging in an industrial setting'},
       {t:'Large sites and infrastructure',p:'Support on specific phases or one-off issues, including on other companies’ sites.',alt:'Crane on a site with concrete foundations at dawn'},

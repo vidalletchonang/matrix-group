@@ -69,7 +69,7 @@ const de={
     items:[
       {t:'Wohnungsbau',p:'Neubauten und Maßnahmen an Wohngebäuden: Phasenplanung, Organisation der Arbeiten und operative Koordination.',alt:'Wohngebäude im Bau'},
       {t:'Tragwerke und Stahlbeton',p:'Unterstützung in den Rohbauphasen, in denen Arbeitsabläufe und Sicherheit besonders sensibel sind.',alt:'Verlegen von Bewehrungsstahl'},
-      {t:'Innerstädtische Baustellen',p:'Baustellen in komplexem Umfeld, mit wenig Platz, Überschneidungen und vielen Beteiligten.',alt:'Kräne und Gebäude im Bau in der Stadt'},
+      
       {t:'Sanierung und Umbau',p:'Arbeiten an Bestandsgebäuden, mit besonderem Augenmerk auf Arbeiten in der Höhe und Überschneidungen.',alt:'Arbeiter auf einem Gerüst'},
       {t:'Unternehmen und Produktionsstätten',p:'Beratung zur betrieblichen Sicherheit: Gefährdungsbeurteilung, Verfahren, Schulung und RSPP-Dienst.',alt:'Schutzhelm in einer Industrieumgebung'},
       {t:'Großbaustellen und Infrastruktur',p:'Begleitung bei bestimmten Phasen oder punktuellen Problemen, auch auf Baustellen anderer Unternehmen.',alt:'Kran auf einer Baustelle mit Betonfundamenten im Morgengrauen'},
