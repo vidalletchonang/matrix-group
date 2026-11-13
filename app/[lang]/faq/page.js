@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import {Hero,Cta} from '../../../components/ui'
-import {PH} from '../../../lib/site'
 import {dict,meta,href} from '../../../lib/i18n'
 export async function generateMetadata({params}){const {lang}=await params;const t=dict(lang).faq;return meta(lang,'/faq',t.meta.title,t.meta.desc)}
 export default async function Page({params}){const {lang}=await params;const t=dict(lang);const f=t.faq
