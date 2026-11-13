@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import {Hero,Photo,Cta,Concept,ServiceCards,Certs} from '../../components/ui'
 import HeroVideo from '../../components/HeroVideo'
-import {PH,HERO} from '../../lib/site'
+import {HERO} from '../../lib/site'
 import {dict,href,meta} from '../../lib/i18n'
 export async function generateMetadata({params}){const {lang}=await params;const t=dict(lang);return meta(lang,'/',{absolute:t.meta.title},t.meta.desc)}
 export default async function Home({params}){const {lang}=await params;const t=dict(lang);const h=t.home
