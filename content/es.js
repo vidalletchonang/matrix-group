@@ -29,7 +29,7 @@ const es={
   },
   chi:{
     meta:{title:'Quiénes somos',desc:'Matrix Group reúne competencias, profesionales y capacidades organizativas en una única estructura: misión, visión, objetivos y valores.'},
-    hero:{eyebrow:'Matrix Group',title:['Quiénes ','somos'],text:'Conexión, organización y competencia al servicio de los proyectos.',alt:'Un grupo de técnicos con casco y chaleco en una obra'},
+    hero:{eyebrow:'Matrix Group',title:['Quiénes ','somos'],text:'Conexión, organización y competencia al servicio de los proyectos.',alt:'Vista desde dron de un complejo residencial en construcción con grúas torre'},
     s1:{eyebrow:'Un grupo',h:'Varios profesionales, una única estructura.',lead:'Matrix Group reúne competencias, profesionales y capacidades organizativas en una única estructura. Su valor no es la suma de actividades individuales, sino crear conexiones y dar una dirección común a los proyectos. Su actividad directa se centra en la consultoría y el apoyo en obra y en la consultoría en materia de seguridad y salud en el trabajo.',alt:'Dos técnicos se dan la mano en una obra'},
     mission:'Acompañar a empresas, profesionales y promotores con consultoría, organización y competencia, transformando las necesidades técnicas y de gestión en soluciones concretas.',
     vision:'Reunir profesionales y competencias diferentes en una única estructura, manteniendo una visión completa del proyecto y de las personas que trabajan en él.',

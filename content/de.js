@@ -29,7 +29,7 @@ const de={
   },
   chi:{
     meta:{title:'Über uns',desc:'Matrix Group vereint Kompetenzen, Fachleute und organisatorische Fähigkeiten in einer Struktur: Mission, Vision, Ziele und Werte.'},
-    hero:{eyebrow:'Matrix Group',title:['Über ','uns'],text:'Verbindung, Organisation und Kompetenz im Dienst der Projekte.',alt:'Eine Gruppe von Technikern mit Helm und Weste auf einer Baustelle'},
+    hero:{eyebrow:'Matrix Group',title:['Über ','uns'],text:'Verbindung, Organisation und Kompetenz im Dienst der Projekte.',alt:'Drohnenaufnahme einer Wohnanlage im Bau mit Turmdrehkranen'},
     s1:{eyebrow:'Eine Gruppe',h:'Viele Fachleute, eine Struktur.',lead:'Matrix Group vereint Kompetenzen, Fachleute und organisatorische Fähigkeiten in einer einzigen Struktur. Ihr Wert liegt nicht in der Summe einzelner Tätigkeiten, sondern darin, Verbindungen zu schaffen und Projekten eine gemeinsame Richtung zu geben. Die eigene Tätigkeit konzentriert sich auf Baustellenberatung und -unterstützung sowie auf die Beratung im Bereich Gesundheit und Sicherheit am Arbeitsplatz.',alt:'Zwei Techniker geben sich auf einer Baustelle die Hand'},
     mission:'Bauunternehmen, Fachleute und Bauherren mit Beratung, Organisation und Kompetenz zu begleiten und technische wie organisatorische Anforderungen in konkrete Lösungen umzusetzen.',
     vision:'Unterschiedliche Fachleute und Kompetenzen in einer Struktur zu vereinen und dabei das Projekt und die daran arbeitenden Menschen ganzheitlich im Blick zu behalten.',

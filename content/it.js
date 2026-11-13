@@ -28,7 +28,7 @@ const it={
   },
   chi:{
     meta:{title:'Chi siamo',desc:"Matrix Group mette in relazione competenze, professionalità e capacità organizzative in un'unica struttura: mission, vision, obiettivi e valori."},
-    hero:{eyebrow:'Matrix Group',title:['Chi ','siamo'],text:'Connessione, organizzazione e competenza al servizio dei progetti.',alt:'Un gruppo di tecnici con casco e gilet su un cantiere'},
+    hero:{eyebrow:'Matrix Group',title:['Chi ','siamo'],text:'Connessione, organizzazione e competenza al servizio dei progetti.',alt:'Cantiere di un complesso residenziale in costruzione con gru a torre, visto dal drone'},
     s1:{eyebrow:'Una realtà di gruppo',h:"Più professionalità, un'unica struttura.",lead:"Matrix Group mette in relazione competenze, professionalità e capacità organizzative in un'unica struttura. Il suo valore non è la somma di singole attività, ma creare connessioni e dare una direzione comune ai progetti. L'attività diretta si concentra su consulenza e supporto di cantiere e su consulenza in materia di salute e sicurezza sul lavoro.",alt:'Due tecnici in cantiere si stringono la mano'},
     mission:'Affiancare imprese, professionisti e committenti con consulenza, organizzazione e competenza, trasformando esigenze tecniche e gestionali in soluzioni concrete.',
     vision:"Riunire professionalità e competenze diverse in un'unica struttura, mantenendo una visione completa del progetto e delle persone che vi lavorano.",

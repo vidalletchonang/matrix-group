@@ -29,7 +29,7 @@ const en={
   },
   chi:{
     meta:{title:'About us',desc:'Matrix Group brings together skills, professionals and organisational capabilities in a single structure: mission, vision, goals and values.'},
-    hero:{eyebrow:'Matrix Group',title:['About ','us'],text:'Connection, organisation and expertise at the service of projects.',alt:'A group of technicians in hard hats and vests on a construction site'},
+    hero:{eyebrow:'Matrix Group',title:['About ','us'],text:'Connection, organisation and expertise at the service of projects.',alt:'Drone view of a residential complex under construction with tower cranes'},
     s1:{eyebrow:'A group',h:'Many professionals, one structure.',lead:'Matrix Group brings together skills, professionals and organisational capabilities in a single structure. Its value is not the sum of individual activities, but creating connections and giving projects a common direction. Its direct activity focuses on construction site consulting and support and on occupational health and safety consulting.',alt:'Two technicians shaking hands on a construction site'},
     mission:'To support contractors, professionals and clients with consulting, organisation and expertise, turning technical and management needs into practical solutions.',
     vision:'To bring different professionals and skills together in a single structure, keeping a complete view of the project and of the people working on it.',
