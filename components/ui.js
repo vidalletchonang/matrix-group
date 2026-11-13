@@ -5,6 +5,7 @@ import {E,href} from '../lib/i18n'
 const u=(id,w)=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=66`
 // id = chiave di REAL (foto reale in /public) oppure id Unsplash
 function img(id,big){
+  if(id.startsWith('/'))return{src:id} // immagine singola già in /public
   const r=REAL[id]
   if(r)return{src:`/${id}-${big?1600:720}.webp`,srcSet:`/${id}-720.webp ${r[0]}w, /${id}-1600.webp ${r[1]}w`}
   return big?{src:u(id,1600),srcSet:`${u(id,800)} 800w, ${u(id,1600)} 1600w, ${u(id,2200)} 2200w`}:{src:u(id,1024),srcSet:`${u(id,640)} 640w, ${u(id,1024)} 1024w, ${u(id,1600)} 1600w`}
