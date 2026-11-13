@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {PH,REAL,CERTS,PHONE,SITE} from '../lib/site'
+import {REAL,CERTS,PHONE,SITE} from '../lib/site'
 import {E,href} from '../lib/i18n'
 
 const u=(id,w)=>`https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}&q=66`

@@ -1,7 +1,7 @@
 'use client'
 import {useEffect,useRef,useState} from 'react'
 // Video di sfondo leggero: prima si vede il poster, il video parte solo a pagina caricata.
-// Accetta un solo video (src) oppure una sequenza (clips) riprodotta in ciclo, es. comparto civile → industriale.
+// Accetta un solo video (src) oppure una sequenza di clip (clips) riprodotte in ciclo.
 // Ogni clip: {src, srcSm (versione leggera per schermi piccoli), end (secondi, facoltativo: taglia la clip)}.
 // Non si carica con "riduci movimento" o "risparmio dati"; si ferma fuori schermo e a scheda nascosta.
 export default function HeroVideo({src,srcSm,clips,poster,t}){
