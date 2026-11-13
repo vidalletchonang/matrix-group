@@ -1,7 +1,7 @@
 import {Hero,Photo,Cta} from '../../../components/ui'
 import {dict,meta} from '../../../lib/i18n'
 // Ogni foto compare una sola volta nel sito: qui copertura e accumulo (indici di prog.real.items)
-const REALG=[[1,'copertura'],[3,'accumulo']]
+const REALG=[[0,'copertura'],[1,'accumulo']]
 export async function generateMetadata({params}){const {lang}=await params;const t=dict(lang).prog;return meta(lang,'/progetti',t.meta.title,t.meta.desc)}
 export default async function Page({params}){const {lang}=await params;const t=dict(lang);const p=t.prog
   return(<>
