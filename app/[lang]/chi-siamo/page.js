@@ -4,7 +4,7 @@ import {dict,meta} from '../../../lib/i18n'
 export async function generateMetadata({params}){const {lang}=await params;const t=dict(lang).chi;return meta(lang,'/chi-siamo',t.meta.title,t.meta.desc)}
 export default async function Page({params}){const {lang}=await params;const t=dict(lang);const c=t.chi
   return(<>
-<Hero img={PH.team} h={c.hero} t={t} lang={lang}/>
+<Hero img="/hero-home.webp" pos="50% 78%" h={c.hero} t={t} lang={lang}/>
 <section><div className="w grid2"><div><span className="eyebrow">{c.s1.eyebrow}</span><h2>{c.s1.h}</h2><p className="lead">{c.s1.lead}</p></div><Photo id={PH.stretta} alt={c.s1.alt}/></div></section>
 <section><div className="w grid2"><div className="card"><span className="eyebrow">Mission</span><h3>{c.mission}</h3></div><div className="card"><span className="eyebrow">Vision</span><h3>{c.vision}</h3></div></div></section>
 <section><div className="w grid2 top"><div><span className="eyebrow">{c.ob.eyebrow}</span><h2>{c.ob.h}</h2></div><List items={c.ob.items}/></div></section>
