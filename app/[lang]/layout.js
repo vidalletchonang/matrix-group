@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import {notFound} from 'next/navigation'
 import Nav from '../../components/Nav'
-import {SITE} from '../../lib/site'
+import {SITE,SOCIAL} from '../../lib/site'
 import {LANGS,dict,href,BASE} from '../../lib/i18n'
-import {WaFloat} from '../../components/ui'
+import {WaFloat,Social} from '../../components/ui'
 import Motion from '../../components/Motion'
 import '@fontsource-variable/archivo/wdth.css'
 import '../globals.css'
@@ -16,7 +16,8 @@ export const viewport={width:'device-width',initialScale:1,viewportFit:'cover',t
 // Dati strutturati per Google (scheda aziendale): solo dati reali dell'azienda
 const ld=(lang,t)=>({'@context':'https://schema.org','@type':'ProfessionalService','@id':BASE+'/#org',name:'Matrix Group',legalName:SITE.name,url:BASE+href(lang,'/'),logo:BASE+'/logo-512.png',image:BASE+'/hero-home.webp',description:t.meta.desc,telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,vatID:'IT'+SITE.piva,
   address:{'@type':'PostalAddress',streetAddress:'Via Tommaso Frignani 103-105-107',postalCode:'41125',addressLocality:'Modena',addressRegion:'MO',addressCountry:'IT'},
-  contactPoint:{'@type':'ContactPoint',telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,contactType:'customer service',availableLanguage:['it','en','fr','de','es']}})
+  contactPoint:{'@type':'ContactPoint',telephone:SITE.tel.replace(/ /g,''),email:SITE.mail,contactType:'customer service',availableLanguage:['it','en','fr','de','es']},
+  sameAs:[SOCIAL.fb,SOCIAL.ig]})
 export default async function Root({children,params}){const {lang}=await params;if(!LANGS.includes(lang))notFound();const t=dict(lang);const f=t.footer;const tel=SITE.tel.replace(/ /g,'')
   return(<html lang={lang}><head><link rel="icon" href="/favicon.ico" sizes="48x48"/><link rel="apple-touch-icon" href="/apple-touch-icon.png"/></head><body>
 <a className="skip" href="#main">{t.nav.skip}</a>
@@ -26,7 +27,7 @@ export default async function Root({children,params}){const {lang}=await params;
 <header><div className="w"><Link className="logo" href={href(lang,'/')} aria-label="Matrix Group, home"><img src="/logo.svg" alt="Matrix Group" width="1885" height="640"/></Link><Nav t={t.nav} lang={lang}/></div></header>
 <main id="main">{children}</main>
 <footer><div className="w"><div className="cols">
-<div><img className="flogo" src="/logo-dark.svg" alt="Matrix Group" width="1885" height="640"/><p>{f.tag}<br/>{SITE.addr}</p></div>
+<div><img className="flogo" src="/logo-dark.svg" alt="Matrix Group" width="1885" height="640"/><p>{f.tag}<br/>{SITE.addr}</p><Social label={t.ct.follow}/></div>
 <div><h4>{f.servizi}</h4><Link href={href(lang,'/servizi/consulenza-cantiere')}>{f.cons}</Link><Link href={href(lang,'/servizi/sicurezza-rspp')}>{f.sic}</Link><Link href={href(lang,'/servizi/progettazione-impianti')}>{f.prog}</Link><Link href={href(lang,'/progetti')}>{f.ambiti}</Link></div>
 <div><h4>{f.azienda}</h4><Link href={href(lang,'/chi-siamo')}>{f.chi}</Link><Link href={href(lang,'/chi-siamo')+'#valori'}>{f.valori}</Link><Link href={href(lang,'/faq')}>{f.faq}</Link></div>
 <div><h4>{f.contatti}</h4><Link href={href(lang,'/contatti')}>{f.scrivi}</Link><a href={`mailto:${SITE.mail}`}>{SITE.mail}</a><a href={`tel:${tel}`}>{t.ct.call}: {SITE.tel}</a><a href={`https://wa.me/${tel.replace('+','')}`} target="_blank" rel="noopener">WhatsApp</a><a href={`sms:${tel}`}>{t.ct.sms}</a></div>
