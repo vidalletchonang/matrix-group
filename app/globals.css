@@ -148,6 +148,7 @@ form .btn{justify-self:start}
 /* footer */
 footer{background:var(--deep);border-top:5px solid var(--hiviz);color:#D9E5E6;padding:64px 0 28px;font-size:16px}
 footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}footer h4{color:#fff;font:700 16px var(--f);font-stretch:85%;margin:0 0 14px;letter-spacing:0}footer .cols a{display:block;text-decoration:none;margin-bottom:8px}footer a:hover{color:var(--hiviz)}
+footer .social a{display:grid;margin:0;color:#fff;border-color:rgba(255,255,255,.35)}footer .social a:hover{background:#fff;color:var(--deep)}footer .social span{color:#D9E5E6}
 footer .cp{border-top:1px solid rgba(255,255,255,.15);margin-top:38px;padding-top:18px;font-size:14px;display:flex;justify-content:space-between;gap:10px 24px;flex-wrap:wrap}footer .cp a{text-decoration:none}
 
 .lst{padding:0;list-style:none;margin:18px 0 0}.lst li{padding:12px 0 12px 30px;border-top:1px solid var(--line);position:relative;color:var(--ink);font-size:17.5px}.lst li::before{content:"";position:absolute;left:0;top:21px;width:14px;height:5px;background:var(--hiviz)}
@@ -186,6 +187,9 @@ footer .cp{border-top:1px solid rgba(255,255,255,.15);margin-top:38px;padding-to
 .grid2.top>div:first-child{position:sticky;top:120px}
 .hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 /* contatti: chiamata, SMS, WhatsApp */
+.social{display:flex;align-items:center;gap:10px;margin-top:16px}.social span{font:650 15px var(--f);color:var(--mute);margin-right:4px}
+.social a{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;border:1.5px solid var(--line);color:var(--brand);text-decoration:none;transition:background .15s,color .15s,border-color .15s;margin:0}
+.social a:hover{background:var(--brand);border-color:var(--brand);color:#fff}.social svg{width:20px;height:20px}
 .ctbtns{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 6px}
 .ctb{display:inline-flex;align-items:center;gap:9px;padding:12px 18px;border-radius:8px;text-decoration:none;font:650 16px var(--f);border:1.5px solid var(--line);color:var(--ink);background:#fff;transition:border-color .15s,background .15s}
 .ctb:hover{border-color:var(--brand)}.ctb svg{width:20px;height:20px;flex:none;color:var(--brand)}.ctb span{color:var(--mute);font-weight:500}
