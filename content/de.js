@@ -6,7 +6,7 @@ const de={
   nav:{home:'Startseite',chi:'Über uns',servizi:'Leistungen',progetti:'Projekte',faq:'FAQ',contatti:'Kontakt',cta:'Kontakt aufnehmen',open:'Menü öffnen',close:'Menü schließen',skip:'Zum Inhalt springen',lang:'Sprache'},
   hero:{cta1:'Rückruf anfordern',cta2:'Unsere Leistungen'},
   video:{play:'Video',pause:'Pause',playL:'Video abspielen',pauseL:'Video anhalten'},
-  ct:{"call": "Anrufen", "sms": "SMS", "wa": "WhatsApp", "waL": "Schreiben Sie uns auf WhatsApp", "msg": "Guten Tag, ich hätte gerne Informationen zu Ihren Leistungen."},
+  ct:{"follow": "Folgen Sie uns", "call": "Anrufen", "sms": "SMS", "wa": "WhatsApp", "waL": "Schreiben Sie uns auf WhatsApp", "msg": "Guten Tag, ich hätte gerne Informationen zu Ihren Leistungen."},
   certs:{"eyebrow": "Zertifizierungen", "h": "Zertifizierte Kompetenz.", "p": "Spezifische Qualifikationen für Klimaanlagen und Photovoltaik-Speichersysteme.", "items": [{"t": "F-GAS-Zertifizierung", "alt": "Logo der F-GAS-Zertifizierung"}, {"t": "Tesla Powerwall Certified Installer", "alt": "Logo Tesla Powerwall Certified Installer"}]},
   cta:{eyebrow:'Sprechen wir darüber',title:['Wir bringen ','Ordnung',' in Ihr Projekt.'],text:'Erzählen Sie uns von Ihrer Baustelle oder vom Sicherheitsbedarf Ihres Unternehmens.',btn:'Rückruf anfordern'},
   more:'Mehr erfahren →',

@@ -6,7 +6,7 @@ const es={
   nav:{home:'Inicio',chi:'Quiénes somos',servizi:'Servicios',progetti:'Proyectos',faq:'FAQ',contatti:'Contacto',cta:'Contáctanos',open:'Abrir el menú',close:'Cerrar el menú',skip:'Ir al contenido',lang:'Idioma'},
   hero:{cta1:'Solicitar contacto',cta2:'Nuestros servicios'},
   video:{play:'Vídeo',pause:'Pausa',playL:'Reproducir el vídeo',pauseL:'Pausar el vídeo'},
-  ct:{"call": "Llamar", "sms": "SMS", "wa": "WhatsApp", "waL": "Escríbenos por WhatsApp", "msg": "Buenos días, me gustaría recibir información sobre sus servicios."},
+  ct:{"follow": "Síguenos", "call": "Llamar", "sms": "SMS", "wa": "WhatsApp", "waL": "Escríbenos por WhatsApp", "msg": "Buenos días, me gustaría recibir información sobre sus servicios."},
   certs:{"eyebrow": "Certificaciones", "h": "Competencias certificadas.", "p": "Habilitaciones específicas para instalaciones de climatización y sistemas de almacenamiento fotovoltaico.", "items": [{"t": "Certificación F-GAS", "alt": "Logotipo de la certificación F-GAS"}, {"t": "Tesla Powerwall Certified Installer", "alt": "Logotipo Tesla Powerwall Certified Installer"}]},
   cta:{eyebrow:'Hablemos',title:['Pongamos ','orden',' en tu proyecto.'],text:'Cuéntanos sobre tu obra o las necesidades de seguridad de tu empresa.',btn:'Solicitar contacto'},
   more:'Más información →',
